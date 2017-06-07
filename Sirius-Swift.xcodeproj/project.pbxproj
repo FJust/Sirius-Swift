@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075B6EEA45418FF92662D53A /* Pods_Sirius_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */; };
+		1B927F1CDB9ED778393A902B /* Pods_Sirius_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */; };
 		AFDEDE251EE798AD00BF654D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE241EE798AD00BF654D /* AppDelegate.swift */; };
 		AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE261EE798AD00BF654D /* ViewController.swift */; };
 		AFDEDE2A1EE798AD00BF654D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDEDE281EE798AD00BF654D /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		AFDEDE2F1EE798AD00BF654D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDEDE2D1EE798AD00BF654D /* LaunchScreen.storyboard */; };
 		AFDEDE3A1EE798AD00BF654D /* Sirius_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE391EE798AD00BF654D /* Sirius_SwiftTests.swift */; };
 		AFDEDE451EE798AD00BF654D /* Sirius_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE441EE798AD00BF654D /* Sirius_SwiftUITests.swift */; };
+		AFE533201EE7A09C001E1EB8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5331F1EE7A09C001E1EB8 /* BaseTabBarController.swift */; };
+		AFE533231EE7A1BE001E1EB8 /* SirusLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE533221EE7A1BE001E1EB8 /* SirusLog.swift */; };
+		AFE533251EE7A3D9001E1EB8 /* RecentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE533241EE7A3D9001E1EB8 /* RecentsController.swift */; };
+		AFE533271EE7A3F1001E1EB8 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE533261EE7A3F1001E1EB8 /* ContactsController.swift */; };
+		AFE533291EE7A4A3001E1EB8 /* SirusNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE533281EE7A4A3001E1EB8 /* SirusNetTool.swift */; };
+		AFE5332B1EE7A78D001E1EB8 /* SirusSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5332A1EE7A78D001E1EB8 /* SirusSource.swift */; };
+		E3B0E3517D6466541C7F0375 /* Pods_Sirius_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CE891366EEABCB4F9DAFDE /* Pods_Sirius_SwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +42,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AF8D93CF1EE7AEAB00E40903 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		03CE891366EEABCB4F9DAFDE /* Pods_Sirius_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3227F1615DE85EF2D4BCE4 /* Pods-Sirius-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B4937D11932EBBA1561507C /* Pods-Sirius-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EDB6C664053C524E3CF912E /* Pods-Sirius-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9306B9E480F458A4A3578902 /* Pods-Sirius-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AFDEDE211EE798AD00BF654D /* Sirius-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sirius-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDEDE241EE798AD00BF654D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDEDE261EE798AD00BF654D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +76,14 @@
 		AFDEDE401EE798AD00BF654D /* Sirius-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sirius-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDEDE441EE798AD00BF654D /* Sirius_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sirius_SwiftUITests.swift; sourceTree = "<group>"; };
 		AFDEDE461EE798AD00BF654D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE5331F1EE7A09C001E1EB8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		AFE533221EE7A1BE001E1EB8 /* SirusLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirusLog.swift; sourceTree = "<group>"; };
+		AFE533241EE7A3D9001E1EB8 /* RecentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsController.swift; sourceTree = "<group>"; };
+		AFE533261EE7A3F1001E1EB8 /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
+		AFE533281EE7A4A3001E1EB8 /* SirusNetTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirusNetTool.swift; sourceTree = "<group>"; };
+		AFE5332A1EE7A78D001E1EB8 /* SirusSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirusSource.swift; sourceTree = "<group>"; };
+		C5CD20A909F32C5FF42C7C28 /* Pods-Sirius-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-Swift/Pods-Sirius-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		C7D585E99C73627B7088978B /* Pods-Sirius-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-Swift/Pods-Sirius-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B927F1CDB9ED778393A902B /* Pods_Sirius_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075B6EEA45418FF92662D53A /* Pods_Sirius_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +107,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B0E3517D6466541C7F0375 /* Pods_Sirius_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6B2A7EC51FECB5081656051 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7D585E99C73627B7088978B /* Pods-Sirius-Swift.debug.xcconfig */,
+				C5CD20A909F32C5FF42C7C28 /* Pods-Sirius-Swift.release.xcconfig */,
+				7EDB6C664053C524E3CF912E /* Pods-Sirius-SwiftTests.debug.xcconfig */,
+				7B4937D11932EBBA1561507C /* Pods-Sirius-SwiftTests.release.xcconfig */,
+				5A3227F1615DE85EF2D4BCE4 /* Pods-Sirius-SwiftUITests.debug.xcconfig */,
+				9306B9E480F458A4A3578902 /* Pods-Sirius-SwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AFDEDE181EE798AD00BF654D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +134,8 @@
 				AFDEDE381EE798AD00BF654D /* Sirius-SwiftTests */,
 				AFDEDE431EE798AD00BF654D /* Sirius-SwiftUITests */,
 				AFDEDE221EE798AD00BF654D /* Products */,
+				A6B2A7EC51FECB5081656051 /* Pods */,
+				EA1D6BF676F0B7B74FEB75C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +152,13 @@
 		AFDEDE231EE798AD00BF654D /* Sirius-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				AFE533211EE7A1A0001E1EB8 /* Helpers */,
+				AFE5331C1EE79DC6001E1EB8 /* Cache */,
+				AFE5331E1EE79DC6001E1EB8 /* NetTool */,
+				AFE5331D1EE79DC6001E1EB8 /* Views */,
+				AFE5331B1EE79D3F001E1EB8 /* Extensions */,
+				AFE533191EE79D34001E1EB8 /* BaseController */,
+				AFE5331A1EE79D34001E1EB8 /* Controllers */,
 				AFDEDE241EE798AD00BF654D /* AppDelegate.swift */,
 				AFDEDE261EE798AD00BF654D /* ViewController.swift */,
 				AFDEDE281EE798AD00BF654D /* Main.storyboard */,
@@ -125,6 +187,71 @@
 			path = "Sirius-SwiftUITests";
 			sourceTree = "<group>";
 		};
+		AFE533191EE79D34001E1EB8 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5331F1EE7A09C001E1EB8 /* BaseTabBarController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		AFE5331A1EE79D34001E1EB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFE533241EE7A3D9001E1EB8 /* RecentsController.swift */,
+				AFE533261EE7A3F1001E1EB8 /* ContactsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFE5331B1EE79D3F001E1EB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AFE5331C1EE79DC6001E1EB8 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		AFE5331D1EE79DC6001E1EB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFE5331E1EE79DC6001E1EB8 /* NetTool */ = {
+			isa = PBXGroup;
+			children = (
+				AFE533281EE7A4A3001E1EB8 /* SirusNetTool.swift */,
+			);
+			path = NetTool;
+			sourceTree = "<group>";
+		};
+		AFE533211EE7A1A0001E1EB8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AFE533221EE7A1BE001E1EB8 /* SirusLog.swift */,
+				AFE5332A1EE7A78D001E1EB8 /* SirusSource.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EA1D6BF676F0B7B74FEB75C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */,
+				8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */,
+				03CE891366EEABCB4F9DAFDE /* Pods_Sirius_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +259,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDEDE491EE798AD00BF654D /* Build configuration list for PBXNativeTarget "Sirius-Swift" */;
 			buildPhases = (
+				1F6511D526168ECA9CFEB7CE /* [CP] Check Pods Manifest.lock */,
 				AFDEDE1D1EE798AD00BF654D /* Sources */,
 				AFDEDE1E1EE798AD00BF654D /* Frameworks */,
 				AFDEDE1F1EE798AD00BF654D /* Resources */,
+				64B42D3F0EB3B324EFF23855 /* [CP] Embed Pods Frameworks */,
+				1BE2D80D5CF844064422E7FD /* [CP] Copy Pods Resources */,
+				AF8D93CF1EE7AEAB00E40903 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDEDE4C1EE798AD00BF654D /* Build configuration list for PBXNativeTarget "Sirius-SwiftTests" */;
 			buildPhases = (
+				4502FDC9FFD01D884D862FD6 /* [CP] Check Pods Manifest.lock */,
 				AFDEDE311EE798AD00BF654D /* Sources */,
 				AFDEDE321EE798AD00BF654D /* Frameworks */,
 				AFDEDE331EE798AD00BF654D /* Resources */,
+				CEBB90FDE00620DD7483FEFD /* [CP] Embed Pods Frameworks */,
+				16DCB37C47B1904A06CEDAC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDEDE4F1EE798AD00BF654D /* Build configuration list for PBXNativeTarget "Sirius-SwiftUITests" */;
 			buildPhases = (
+				8B31931CA836D52C6A460AF5 /* [CP] Check Pods Manifest.lock */,
 				AFDEDE3C1EE798AD00BF654D /* Sources */,
 				AFDEDE3D1EE798AD00BF654D /* Frameworks */,
 				AFDEDE3E1EE798AD00BF654D /* Resources */,
+				D4EF40016F246C06425924C3 /* [CP] Embed Pods Frameworks */,
+				24584DE9A2A535AB86BFD3C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +325,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = PF;
 				TargetAttributes = {
 					AFDEDE201EE798AD00BF654D = {
@@ -254,13 +391,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16DCB37C47B1904A06CEDAC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BE2D80D5CF844064422E7FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sirius-Swift/Pods-Sirius-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F6511D526168ECA9CFEB7CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24584DE9A2A535AB86BFD3C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4502FDC9FFD01D884D862FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64B42D3F0EB3B324EFF23855 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sirius-Swift/Pods-Sirius-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B31931CA836D52C6A460AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBB90FDE00620DD7483FEFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EF40016F246C06425924C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFDEDE1D1EE798AD00BF654D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */,
+				AFE533251EE7A3D9001E1EB8 /* RecentsController.swift in Sources */,
+				AFE533231EE7A1BE001E1EB8 /* SirusLog.swift in Sources */,
+				AFE5332B1EE7A78D001E1EB8 /* SirusSource.swift in Sources */,
 				AFDEDE251EE798AD00BF654D /* AppDelegate.swift in Sources */,
+				AFE533271EE7A3F1001E1EB8 /* ContactsController.swift in Sources */,
+				AFE533291EE7A4A3001E1EB8 /* SirusNetTool.swift in Sources */,
+				AFE533201EE7A09C001E1EB8 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +606,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -333,7 +616,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -375,7 +662,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -383,7 +672,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,9 +703,12 @@
 		};
 		AFDEDE4A1EE798AD00BF654D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D585E99C73627B7088978B /* Pods-Sirius-Swift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sirius-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Just.Sirius-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +718,12 @@
 		};
 		AFDEDE4B1EE798AD00BF654D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CD20A909F32C5FF42C7C28 /* Pods-Sirius-Swift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sirius-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Just.Sirius-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +733,7 @@
 		};
 		AFDEDE4D1EE798AD00BF654D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDB6C664053C524E3CF912E /* Pods-Sirius-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +748,7 @@
 		};
 		AFDEDE4E1EE798AD00BF654D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4937D11932EBBA1561507C /* Pods-Sirius-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +763,7 @@
 		};
 		AFDEDE501EE798AD00BF654D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3227F1615DE85EF2D4BCE4 /* Pods-Sirius-SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Sirius-SwiftUITests/Info.plist";
@@ -475,6 +777,7 @@
 		};
 		AFDEDE511EE798AD00BF654D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9306B9E480F458A4A3578902 /* Pods-Sirius-SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Sirius-SwiftUITests/Info.plist";
@@ -505,6 +808,7 @@
 				AFDEDE4B1EE798AD00BF654D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFDEDE4C1EE798AD00BF654D /* Build configuration list for PBXNativeTarget "Sirius-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +817,7 @@
 				AFDEDE4E1EE798AD00BF654D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFDEDE4F1EE798AD00BF654D /* Build configuration list for PBXNativeTarget "Sirius-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +826,7 @@
 				AFDEDE511EE798AD00BF654D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
