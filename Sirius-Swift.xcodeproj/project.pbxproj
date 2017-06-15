@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		075B6EEA45418FF92662D53A /* Pods_Sirius_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */; };
 		1B927F1CDB9ED778393A902B /* Pods_Sirius_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */; };
+		AF27B6601EE8F3F60087C8A8 /* SiriusCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B65F1EE8F3F60087C8A8 /* SiriusCache.swift */; };
+		AF27B6641EE929930087C8A8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B6631EE929930087C8A8 /* UserInfo.swift */; };
+		AF27B6681EE93F0A0087C8A8 /* SiriusDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B6671EE93F0A0087C8A8 /* SiriusDefaults.swift */; };
+		AF27B66C1EEA6C230087C8A8 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B66B1EEA6C230087C8A8 /* UserModels.swift */; };
 		AFDEDE251EE798AD00BF654D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE241EE798AD00BF654D /* AppDelegate.swift */; };
 		AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE261EE798AD00BF654D /* ViewController.swift */; };
 		AFDEDE2A1EE798AD00BF654D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDEDE281EE798AD00BF654D /* Main.storyboard */; };
@@ -63,6 +67,10 @@
 		8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9306B9E480F458A4A3578902 /* Pods-Sirius-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF27B65F1EE8F3F60087C8A8 /* SiriusCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriusCache.swift; sourceTree = "<group>"; };
+		AF27B6631EE929930087C8A8 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		AF27B6671EE93F0A0087C8A8 /* SiriusDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriusDefaults.swift; sourceTree = "<group>"; };
+		AF27B66B1EEA6C230087C8A8 /* UserModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
 		AFDEDE211EE798AD00BF654D /* Sirius-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sirius-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDEDE241EE798AD00BF654D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDEDE261EE798AD00BF654D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +135,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AF27B66A1EEA6C120087C8A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF27B66B1EEA6C230087C8A8 /* UserModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AFDEDE181EE798AD00BF654D = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +168,7 @@
 		AFDEDE231EE798AD00BF654D /* Sirius-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				AF27B66A1EEA6C120087C8A8 /* Models */,
 				AFE533211EE7A1A0001E1EB8 /* Helpers */,
 				AFE5331C1EE79DC6001E1EB8 /* Cache */,
 				AFE5331E1EE79DC6001E1EB8 /* NetTool */,
@@ -214,6 +231,7 @@
 		AFE5331C1EE79DC6001E1EB8 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
+				AF27B65F1EE8F3F60087C8A8 /* SiriusCache.swift */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -238,6 +256,8 @@
 			children = (
 				AFE533221EE7A1BE001E1EB8 /* SirusLog.swift */,
 				AFE5332A1EE7A78D001E1EB8 /* SirusSource.swift */,
+				AF27B6631EE929930087C8A8 /* UserInfo.swift */,
+				AF27B6671EE93F0A0087C8A8 /* SiriusDefaults.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -535,12 +555,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */,
+				AF27B6681EE93F0A0087C8A8 /* SiriusDefaults.swift in Sources */,
 				AFE533251EE7A3D9001E1EB8 /* RecentsController.swift in Sources */,
+				AF27B6601EE8F3F60087C8A8 /* SiriusCache.swift in Sources */,
 				AFE533231EE7A1BE001E1EB8 /* SirusLog.swift in Sources */,
 				AFE5332B1EE7A78D001E1EB8 /* SirusSource.swift in Sources */,
 				AFDEDE251EE798AD00BF654D /* AppDelegate.swift in Sources */,
 				AFE533271EE7A3F1001E1EB8 /* ContactsController.swift in Sources */,
 				AFE533291EE7A4A3001E1EB8 /* SirusNetTool.swift in Sources */,
+				AF27B6641EE929930087C8A8 /* UserInfo.swift in Sources */,
+				AF27B66C1EEA6C230087C8A8 /* UserModels.swift in Sources */,
 				AFE533201EE7A09C001E1EB8 /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

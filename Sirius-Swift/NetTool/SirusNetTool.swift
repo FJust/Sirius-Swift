@@ -8,22 +8,28 @@
 
 import UIKit
 import Alamofire
+//
+//extension Alamofire.DataRequest {
+//    func response
+//}
 
-
-
-struct SirusNetTool {
-    static let instance = SirusNetTool()
+func RequestAPI(host: Configuration.APIHost,
+    path: Configuration.APIPath,
+    method: Alamofire.HTTPMethod = .get,
+    parameters: Alamofire.Parameters,
+    encoding: Alamofire.ParameterEncoding = Alamofire.URLEncoding.default,
+    timeoutInterval: TimeInterval = Router.timeoutInterval,
+    headers: Alamofire.HTTPHeaders? = nil)
+    -> Alamofire.DataRequest {
     
-//    var rooter = Roo
-//        var request: Alamofire.Request = Alamofire.request(<#T##url: URLConvertible##URLConvertible#>)
-    
-    func requestAPI() -> Alamofire.DataRequest {
-        let request:Alamofire.DataRequest = Alamofire.request("www.baidu.com", method: .get, parameters: nil, encoding: Alamofire.URLEncoding.default, headers: nil).responseJSON { response in
-            println(response)
-        }
-        
-        return request
-    }
+    let router = Router(host: host,
+                        path: path,
+                        method: method,
+                        parameters: parameters,
+                        encoding: encoding,
+                        timeoutInterval: timeoutInterval,
+                        headers: headers)
+    return Alamofire.request(router)
 }
 
 struct Router: URLRequestConvertible {
@@ -39,7 +45,7 @@ struct Router: URLRequestConvertible {
     init(host: Configuration.APIHost,
          path: Configuration.APIPath,
          method: Alamofire.HTTPMethod = .get,
-         parameters: Alamofire.Parameters? = nil,
+         parameters: Alamofire.Parameters,
          encoding: Alamofire.ParameterEncoding = Alamofire.URLEncoding.default,
          timeoutInterval: TimeInterval = Router.timeoutInterval,
          headers: Alamofire.HTTPHeaders? = nil) {
@@ -48,7 +54,7 @@ struct Router: URLRequestConvertible {
         self.method = method
         self.timeoutInterval = timeoutInterval
         self.encoding = encoding
-        parameters?.forEach {
+        parameters.forEach {
             self.parameters[$0] = $1
         }
         headers?.forEach {
@@ -57,7 +63,7 @@ struct Router: URLRequestConvertible {
     }
     var parameters: Alamofire.Parameters = {
         
-        return ["token": "dd7b1f297cd912ca742180f12433320d", "userId": 180, "client": "iphone"]
+        return ["token": SiriusDefaults.loginToken, "userId": SiriusDefaults.userId, "client": "iphone"]
     }()
     
     var headers: Alamofire.HTTPHeaders = {

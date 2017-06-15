@@ -32,16 +32,13 @@ struct Configuration {
     
     enum APIPath: String {
         case users  = "bd/service/users"
+        case login  = "proxy/user/login/send"
     }
     
     struct CommonParameters {
-        static let client = "iphone"
-        static let app    = "crm"
-        let uuid          = UUID().uuidString
-        let ip            = ""
-        let sid           = "-1";
-
-        
+        let client  = "iphone"
+        let app     = "crm"
+        let uuid    = UUID().uuidString
     }
-    
 }
+
