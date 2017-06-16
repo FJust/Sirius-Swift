@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		075B6EEA45418FF92662D53A /* Pods_Sirius_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */; };
 		1B927F1CDB9ED778393A902B /* Pods_Sirius_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */; };
+		4A9324751EF42C6F008B7925 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9324741EF42C6F008B7925 /* String+MD5.swift */; };
 		AF27B6601EE8F3F60087C8A8 /* SiriusCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B65F1EE8F3F60087C8A8 /* SiriusCache.swift */; };
 		AF27B6641EE929930087C8A8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B6631EE929930087C8A8 /* UserInfo.swift */; };
 		AF27B6681EE93F0A0087C8A8 /* SiriusDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B6671EE93F0A0087C8A8 /* SiriusDefaults.swift */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		03CE891366EEABCB4F9DAFDE /* Pods_Sirius_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9324741EF42C6F008B7925 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		5A3227F1615DE85EF2D4BCE4 /* Pods-Sirius-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4937D11932EBBA1561507C /* Pods-Sirius-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		7EDB6C664053C524E3CF912E /* Pods-Sirius-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 		AFE5331B1EE79D3F001E1EB8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4A9324741EF42C6F008B7925 /* String+MD5.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -454,7 +457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		24584DE9A2A535AB86BFD3C2 /* [CP] Copy Pods Resources */ = {
@@ -484,7 +487,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		64B42D3F0EB3B324EFF23855 /* [CP] Embed Pods Frameworks */ = {
@@ -514,7 +517,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CEBB90FDE00620DD7483FEFD /* [CP] Embed Pods Frameworks */ = {
@@ -554,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9324751EF42C6F008B7925 /* String+MD5.swift in Sources */,
 				AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */,
 				AF27B6681EE93F0A0087C8A8 /* SiriusDefaults.swift in Sources */,
 				AFE533251EE7A3D9001E1EB8 /* RecentsController.swift in Sources */,
