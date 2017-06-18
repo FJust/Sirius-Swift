@@ -15,6 +15,7 @@ target 'Sirius-Swift' do
   pod 'SnapKit'
   pod 'Ruler'
   pod 'DeviceKit'
+  pod ‘SwiftyMD5’
 
   target 'Sirius-SwiftTests' do
     inherit! :search_paths

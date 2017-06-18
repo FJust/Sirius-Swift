@@ -26,7 +26,6 @@ class RecentsController: UIViewController {
                 println(json.dictionaryValue)
         }
         
-
 //        println(a!, a?.rawValue)
         
 //        Alamofire.request("www.baidu.com").responseJSON { response in

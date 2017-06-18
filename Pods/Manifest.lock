@@ -11,6 +11,7 @@ PODS:
   - Ruler (1.0.1)
   - SnapKit (3.2.0)
   - SwiftyJSON (3.1.4)
+  - SwiftyMD5 (0.0.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - Ruler
   - SnapKit
   - SwiftyJSON
+  - SwiftyMD5
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
@@ -32,7 +34,8 @@ SPEC CHECKSUMS:
   Ruler: 199fa3d7b01f680577ea662e9ea409477ae55181
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyMD5: 82ae7b14550e9e86be3bff5e3f937d869a4d2622
 
-PODFILE CHECKSUM: 364a3de224da19bc7ec9c398ce1cdd477bf9bce5
+PODFILE CHECKSUM: 4564ca584ff4be3a9a499c0738ad2eb0e8edbe7f
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.0.beta.1

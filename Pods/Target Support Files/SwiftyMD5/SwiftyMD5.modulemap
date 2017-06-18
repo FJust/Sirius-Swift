@@ -1,0 +1,6 @@
+framework module SwiftyMD5 {
+  umbrella header "SwiftyMD5-umbrella.h"
+
+  export *
+  module * { export * }
+}
