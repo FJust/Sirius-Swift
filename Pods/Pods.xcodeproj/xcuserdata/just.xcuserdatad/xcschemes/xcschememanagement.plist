@@ -54,6 +54,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -64,15 +74,50 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyMD5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>007EE982E610D9978F79C26FD7C8563A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00AF35036470249625A7B93CAD290F3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02596A2E26D48B0CC4277833FDE59F3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>082B49D55CD18D1CC02C73CDB47646E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>182CBF5906617BF8667A43B3F2B9C255</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E011F79DAC991C0AA4242E78D13A2AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2F0C0F810568D3E82219429D9D870F04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>307CFB1D0AE3E360C647168680421320</key>
+		<key>54931477B84B7D645DE8502F7833300F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,37 +127,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D7AE5049F0D34CDC19E0B399A47B13B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6E102B4D2D7DE50C8508D6F153FFDFB1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>762A4D0B8B117A8F37222B3BBA9A6019</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7F6B5D7AF602ABF6B35E0BE11988793C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8CE5A0B06F5DE739EF0E5F079CF8E64B</key>
+		<key>B74671AC4AD442223B677430EE6BBBF5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B74671AC4AD442223B677430EE6BBBF5</key>
+		<key>C23F12381507E339540AB5BB70E8EFDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -123,6 +148,11 @@
 			<true/>
 		</dict>
 		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5268527426CDC3624694627648D0365</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "307CFB1D0AE3E360C647168680421320"
+               BlueprintIdentifier = "182CBF5906617BF8667A43B3F2B9C255"
                BuildableName = "Pods_Sirius_Swift.framework"
                BlueprintName = "Pods-Sirius-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "307CFB1D0AE3E360C647168680421320"
+            BlueprintIdentifier = "182CBF5906617BF8667A43B3F2B9C255"
             BuildableName = "Pods_Sirius_Swift.framework"
             BlueprintName = "Pods-Sirius-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">

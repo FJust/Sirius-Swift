@@ -16,8 +16,9 @@ target 'Sirius-Swift' do
   pod 'Ruler'
   pod 'DeviceKit'
   pod 'SwiftyMD5'
-  pod 'StoryboardLoader'
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  
   target 'Sirius-SwiftTests' do
     inherit! :search_paths
     # Pods for testing

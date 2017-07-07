@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		075B6EEA45418FF92662D53A /* Pods_Sirius_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */; };
 		1B927F1CDB9ED778393A902B /* Pods_Sirius_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */; };
-		4A9324751EF42C6F008B7925 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9324741EF42C6F008B7925 /* String+MD5.swift */; };
+		4A001E981F0E67A200897473 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A001E971F0E67A200897473 /* CFNetwork.framework */; };
+		4A001E9A1F0E67A800897473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A001E991F0E67A800897473 /* Foundation.framework */; };
+		4A001E9C1F0E67AC00897473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A001E9B1F0E67AC00897473 /* UIKit.framework */; };
+		4A001EA21F0E6FBA00897473 /* RecentConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A001EA11F0E6FBA00897473 /* RecentConversationCell.swift */; };
 		AF27B6601EE8F3F60087C8A8 /* SiriusCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B65F1EE8F3F60087C8A8 /* SiriusCache.swift */; };
 		AF27B6641EE929930087C8A8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B6631EE929930087C8A8 /* UserInfo.swift */; };
 		AF27B6681EE93F0A0087C8A8 /* SiriusDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B6671EE93F0A0087C8A8 /* SiriusDefaults.swift */; };
 		AF27B66C1EEA6C230087C8A8 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27B66B1EEA6C230087C8A8 /* UserModels.swift */; };
 		AFDEDE251EE798AD00BF654D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE241EE798AD00BF654D /* AppDelegate.swift */; };
-		AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDEDE261EE798AD00BF654D /* ViewController.swift */; };
 		AFDEDE2A1EE798AD00BF654D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDEDE281EE798AD00BF654D /* Main.storyboard */; };
 		AFDEDE2C1EE798AD00BF654D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDEDE2B1EE798AD00BF654D /* Assets.xcassets */; };
 		AFDEDE2F1EE798AD00BF654D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDEDE2D1EE798AD00BF654D /* LaunchScreen.storyboard */; };
@@ -62,7 +64,10 @@
 
 /* Begin PBXFileReference section */
 		03CE891366EEABCB4F9DAFDE /* Pods_Sirius_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sirius_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A9324741EF42C6F008B7925 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		4A001E971F0E67A200897473 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4A001E991F0E67A800897473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A001E9B1F0E67AC00897473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A001EA11F0E6FBA00897473 /* RecentConversationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentConversationCell.swift; sourceTree = "<group>"; };
 		5A3227F1615DE85EF2D4BCE4 /* Pods-Sirius-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftUITests/Pods-Sirius-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4937D11932EBBA1561507C /* Pods-Sirius-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		7EDB6C664053C524E3CF912E /* Pods-Sirius-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sirius-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sirius-SwiftTests/Pods-Sirius-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +80,6 @@
 		AF27B66B1EEA6C230087C8A8 /* UserModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
 		AFDEDE211EE798AD00BF654D /* Sirius-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sirius-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDEDE241EE798AD00BF654D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFDEDE261EE798AD00BF654D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFDEDE291EE798AD00BF654D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFDEDE2B1EE798AD00BF654D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFDEDE2E1EE798AD00BF654D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A001E9C1F0E67AC00897473 /* UIKit.framework in Frameworks */,
+				4A001E9A1F0E67A800897473 /* Foundation.framework in Frameworks */,
+				4A001E981F0E67A200897473 /* CFNetwork.framework in Frameworks */,
 				1B927F1CDB9ED778393A902B /* Pods_Sirius_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A001EA01F0E6FAC00897473 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A001EA11F0E6FBA00897473 /* RecentConversationCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A6B2A7EC51FECB5081656051 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,16 +185,15 @@
 		AFDEDE231EE798AD00BF654D /* Sirius-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4A001EA01F0E6FAC00897473 /* Views */,
 				AF27B66A1EEA6C120087C8A8 /* Models */,
 				AFE533211EE7A1A0001E1EB8 /* Helpers */,
 				AFE5331C1EE79DC6001E1EB8 /* Cache */,
 				AFE5331E1EE79DC6001E1EB8 /* NetTool */,
-				AFE5331D1EE79DC6001E1EB8 /* Views */,
 				AFE5331B1EE79D3F001E1EB8 /* Extensions */,
 				AFE533191EE79D34001E1EB8 /* BaseController */,
 				AFE5331A1EE79D34001E1EB8 /* Controllers */,
 				AFDEDE241EE798AD00BF654D /* AppDelegate.swift */,
-				AFDEDE261EE798AD00BF654D /* ViewController.swift */,
 				AFDEDE281EE798AD00BF654D /* Main.storyboard */,
 				AFDEDE2B1EE798AD00BF654D /* Assets.xcassets */,
 				AFDEDE2D1EE798AD00BF654D /* LaunchScreen.storyboard */,
@@ -226,7 +240,6 @@
 		AFE5331B1EE79D3F001E1EB8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4A9324741EF42C6F008B7925 /* String+MD5.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -237,13 +250,6 @@
 				AF27B65F1EE8F3F60087C8A8 /* SiriusCache.swift */,
 			);
 			path = Cache;
-			sourceTree = "<group>";
-		};
-		AFE5331D1EE79DC6001E1EB8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		AFE5331E1EE79DC6001E1EB8 /* NetTool */ = {
@@ -268,6 +274,9 @@
 		EA1D6BF676F0B7B74FEB75C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A001E9B1F0E67AC00897473 /* UIKit.framework */,
+				4A001E991F0E67A800897473 /* Foundation.framework */,
+				4A001E971F0E67A200897473 /* CFNetwork.framework */,
 				925891F6889638EF3C38CEE5 /* Pods_Sirius_Swift.framework */,
 				8806A42D6EDFD584A81B79C3 /* Pods_Sirius_SwiftTests.framework */,
 				03CE891366EEABCB4F9DAFDE /* Pods_Sirius_SwiftUITests.framework */,
@@ -557,8 +566,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9324751EF42C6F008B7925 /* String+MD5.swift in Sources */,
-				AFDEDE271EE798AD00BF654D /* ViewController.swift in Sources */,
 				AF27B6681EE93F0A0087C8A8 /* SiriusDefaults.swift in Sources */,
 				AFE533251EE7A3D9001E1EB8 /* RecentsController.swift in Sources */,
 				AF27B6601EE8F3F60087C8A8 /* SiriusCache.swift in Sources */,
@@ -570,6 +577,7 @@
 				AF27B6641EE929930087C8A8 /* UserInfo.swift in Sources */,
 				AF27B66C1EEA6C230087C8A8 /* UserModels.swift in Sources */,
 				AFE533201EE7A09C001E1EB8 /* BaseTabBarController.swift in Sources */,
+				4A001EA21F0E6FBA00897473 /* RecentConversationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
