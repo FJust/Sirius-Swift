@@ -54,6 +54,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,7 +82,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11F8FAAD9B8DA167021AC666A4C6E4D8</key>
+		<key>007EE982E610D9978F79C26FD7C8563A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00AF35036470249625A7B93CAD290F3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02596A2E26D48B0CC4277833FDE59F3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>082B49D55CD18D1CC02C73CDB47646E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>182CBF5906617BF8667A43B3F2B9C255</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E011F79DAC991C0AA4242E78D13A2AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,12 +117,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3636EC21039B74620E66EC47460F3BBB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>465F1946B4367DC943E10A182C7137EA</key>
+		<key>54931477B84B7D645DE8502F7833300F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,12 +137,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C86C25C04B454A478DFD80AF93F2B81C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D6E5C1E038BBBE8D4E060A1BEBBFB1EC</key>
+		<key>C23F12381507E339540AB5BB70E8EFDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -127,12 +152,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ED14CDE84A22B14363131920952FDE19</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F951332870CD38F73EF6125B35D50B91</key>
+		<key>E5268527426CDC3624694627648D0365</key>
 		<dict>
 			<key>primary</key>
 			<true/>

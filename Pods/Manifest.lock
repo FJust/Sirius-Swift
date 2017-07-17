@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.5.0)
   - DeviceKit (1.2.3)
+  - HyphenateLite (3.3.2)
   - Kingfisher (3.10.2)
   - MJRefresh (3.1.12)
   - Realm (2.8.3):
@@ -19,6 +20,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - DeviceKit
+  - HyphenateLite
   - Kingfisher
   - MJRefresh
   - RealmSwift
@@ -32,6 +34,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   DeviceKit: f33cbc6e67d9bb416e42dedc647557c7c2f6d3d7
+  HyphenateLite: 54ffda162deec2cedf156185a707b86678ae914a
   Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Realm: 3601ef091c8c499a31101d8563b991e75546cdce
@@ -43,6 +46,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   SwiftyMD5: 29304e3a31ebbb97dc4f290121b60e453a963e0e
 
-PODFILE CHECKSUM: 105bb6b9a8ea323d7281a30e123c4dbffd179f9d
+PODFILE CHECKSUM: fd512f618ff00c639b0da16de5e5bea725499e84
 
 COCOAPODS: 1.3.0.beta.1

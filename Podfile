@@ -18,6 +18,7 @@ target 'Sirius-Swift' do
   pod 'SwiftyMD5'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'HyphenateLite'
   
   target 'Sirius-SwiftTests' do
     inherit! :search_paths

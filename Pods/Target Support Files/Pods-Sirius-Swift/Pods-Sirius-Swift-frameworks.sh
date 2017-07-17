@@ -100,6 +100,8 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DeviceKit/DeviceKit.framework"
+  install_framework "${PODS_ROOT}/HyphenateLite/ios_IM_HyphenateLite_sdk_3.3.2/HyphenateSDK/HyphenateLite.framework"
+  install_dsym "${PODS_ROOT}/HyphenateLite/ios_IM_HyphenateLite_sdk_3.3.2/HyphenateSDK/HyphenateLite.framework.dSYM"
   install_framework "$BUILT_PRODUCTS_DIR/Kingfisher/Kingfisher.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MJRefresh/MJRefresh.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Realm/Realm.framework"
@@ -114,6 +116,8 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DeviceKit/DeviceKit.framework"
+  install_framework "${PODS_ROOT}/HyphenateLite/ios_IM_HyphenateLite_sdk_3.3.2/HyphenateSDK/HyphenateLite.framework"
+  install_dsym "${PODS_ROOT}/HyphenateLite/ios_IM_HyphenateLite_sdk_3.3.2/HyphenateSDK/HyphenateLite.framework.dSYM"
   install_framework "$BUILT_PRODUCTS_DIR/Kingfisher/Kingfisher.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MJRefresh/MJRefresh.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Realm/Realm.framework"
